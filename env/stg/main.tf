@@ -19,9 +19,9 @@ provider "aws" {
   # shared_config_files      = ["/Users/dboo/Documents/Project/Catcher/.aws/config"]
   # shared_credentials_files = ["/Users/dboo/Documents/Project/Catcher/.aws/credentials"]
   # profile                  = "default"
-  access_key     = ${{secrets.AWS_ACCESS_KEY_ID}}
-  secret_key = ${{secrets.AWS_SECRET_ACCESS_KEY}}
-  region = ${{secrets.AWS_REGION}
+  shared_config_files      = ["/root/.aws/config"]
+  shared_credentials_files = ["/root/.aws/credentials"]
+  profile                  = "default"
 }
 
 ### VPC ###

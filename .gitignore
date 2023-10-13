@@ -1,2 +1,1 @@
-env/
-terraform.tfstate
+env/stg/.terraform/

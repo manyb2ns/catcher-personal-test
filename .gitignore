@@ -1,1 +1,2 @@
 env/stg/.terraform/
+env/stg/.terraform.lock.hcl

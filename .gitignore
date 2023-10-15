@@ -1,2 +1,4 @@
 env/stg/.terraform/
 env/stg/.terraform.lock.hcl
+.terraform.lock.hcl
+.terraform/providers/registry.terraform.io/hashicorp/null/3.2.1/darwin_arm64/terraform-provider-null_v3.2.1_x5
